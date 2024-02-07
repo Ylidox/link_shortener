@@ -30,7 +30,7 @@ export const Home = () => {
 
 
   let navigate = useNavigate();
-  const url = 'http://localhost:3001';
+  const url = 'http://45.153.69.13:3005';
 
   const getCountRows = () => {
     axios.get('/api/count', {headers:{
