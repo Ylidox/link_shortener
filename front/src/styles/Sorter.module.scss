@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  color: var(--accent-color);
+  font-size: 18px;
+
+  button{
+    font-size: 18px;
+    margin: 5px 5px 10px 0;
+    color: var(--accent-color);
+    background: white;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+
+    &:active{
+      color: white;
+      background: var(--accent-color);
+    }
+  }
+
+  .fill{
+    color: white;
+    background: var(--accent-color);
+  }
+}

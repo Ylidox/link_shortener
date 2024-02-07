@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  margin-bottom: 20px;
+  button{
+    font-size: 18px;
+    margin: 5px 0 5px 5px;
+    width: 30px;
+    height: 30px;
+    color: var(--accent-color);
+    background: white;
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+
+    &:active{
+      color: white;
+      background: var(--accent-color);
+    }
+  }
+
+  .fill{
+    color: white;
+    background: var(--accent-color);
+  }
+
+  .refresh{
+    display: flex;
+    align-items: center;
+  }
+}

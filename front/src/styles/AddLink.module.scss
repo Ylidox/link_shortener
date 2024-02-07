@@ -1,0 +1,36 @@
+.container{
+  margin: 0 0 20px 0;
+
+  button{
+    padding: 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: 3px solid var(--accent-color);
+    border-radius: 7px;
+    transition: all 0.2s;
+    background: white;
+    color: var(--accent-color);
+
+    &:active{
+      color: white;
+      background-color: var(--accent-color);
+    }
+  }
+
+  .fill{
+    color: white;
+    background-color: var(--accent-color);
+  }
+  
+  input{
+    color: var(--accent-color);
+    margin-left: 10px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    transition: all 0.5s;
+  }
+  .underline{
+    border-bottom: 1px solid var(--accent-color);
+  }
+}

@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+  border: 1px solid var(--accent-color);
+  border-collapse: collapse;
+  
+  th, td {
+    border: 1px solid var(--accent-color);
+    padding: 8px;
+  }
+
+  td{
+    text-align: center;
+  }
+  
+  th {
+    background-color: var(--accent-color);
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ffeaea; /* белый цвет для четных строк */
+  }
+
+  tr:nth-child(odd) {
+    background-color: #ffcccc; /* красный цвет для нечетных строк */
+  }
+}
